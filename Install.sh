@@ -1,5 +1,5 @@
-sudo apt install grub-efi grub2-common grub-customizer
-sudo grub-install
+yes | sudo apt install grub-efi grub2-common grub-customizer
+yes | sudo grub-install
 sudo mkdir -p /boot/efi/EFI/grub
 sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/grub/grubx64.efi
 echo "========Opening grub-customizer========="
